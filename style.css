@@ -1,0 +1,38 @@
+.home-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+.home-text {
+  width: 48%;
+  color: black; 
+}
+.home-image img {
+  width: 300px;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .home-section {
+    flex-direction: column;
+    text-align: center;
+    border: ;
+  }
+  .home-text, .home-image {
+    width: 100%;
+  }
+  .home-image img {
+    margin-top: 20px;
+  }
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
